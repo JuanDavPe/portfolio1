@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juan David Pereira | Backend Developer</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="nav">
+            <a href="#" class="logo">&lt;JDP /&gt;</a>
+            <ul class="nav-links">
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#sobre-mi">Sobre mí</a></li>
+                <li><a href="#stack">Stack</a></li>
+                <li><a href="#proyectos">Proyectos</a></li>
+                <li><a href="#certificados">Certificados</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+            <button class="theme-toggle" aria-label="Cambiar tema">
+                <svg class="icon-sun" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <circle cx="12" cy="12" r="5"></circle>
+                    <line x1="12" y1="1" x2="12" y2="3"></line>
+                    <line x1="12" y1="21" x2="12" y2="23"></line>
+                    <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                    <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                    <line x1="1" y1="12" x2="3" y2="12"></line>
+                    <line x1="21" y1="12" x2="23" y2="12"></line>
+                    <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                    <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                </svg>
+                <svg class="icon-moon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                </svg>
+            </button>
+            <button class="menu-btn" aria-label="Menú">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="inicio" class="hero">
+        <div class="orb orb-1"></div>
+        <div class="orb orb-2"></div>
+        <div class="hero-content">
+            <p class="hero-greeting">Hola, soy</p>
+            <h1 class="hero-name">Juan David<span class="dot">.</span></h1>
+            <h2 class="hero-title">Backend Developer</h2>
+            <p class="hero-description">
+                Desarrollador backend enfocado en crear aplicaciones robustas y escalables.
+                Especializado en C#, .NET y bases de datos SQL.
+            </p>
+            <div class="hero-buttons">
+                <a href="#proyectos" class="btn btn-primary">Ver proyectos</a>
+                <a href="#contacto" class="btn btn-secondary">Contactar</a>
+            </div>
+        </div>
+        <div class="hero-decoration">
+            <div class="code-block glass-card">
+                <pre><code><span class="keyword">class</span> <span class="class-name">Developer</span> {
+  <span class="keyword">string</span> Name = <span class="string">"Juan David"</span>;
+  <span class="keyword">string</span> Role = <span class="string">"Backend Dev"</span>;
+  <span class="keyword">string</span>[] Stack = {<span class="string">"C#"</span>, <span class="string">".NET"</span>, <span class="string">"SQL"</span>};
+}</code></pre>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sobre mí -->
+    <section id="sobre-mi" class="section gradient-bg-animated">
+        <div class="container">
+            <h2 class="section-title">Sobre mí</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>
+                        Soy un desarrollador backend apasionado por crear soluciones de software
+                        que resuelven problemas reales. Me especializo en el desarrollo de
+                        aplicaciones de escritorio y sistemas conectados a bases de datos.
+                    </p>
+                    <p>
+                        Mi enfoque está en escribir código limpio, mantenible y eficiente.
+                        Cada proyecto es una oportunidad para aprender y mejorar mis habilidades.
+                    </p>
+                    <div class="about-stats">
+                        <div class="stat">
+                            <span class="stat-number gradient-text">1+</span>
+                            <span class="stat-label">Proyecto</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number gradient-text">C#</span>
+                            <span class="stat-label">Especialidad</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number gradient-text">.NET</span>
+                            <span class="stat-label">Framework</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <div class="image-placeholder">
+                        <span>&lt;JD/&gt;</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stack -->
+    <section id="stack" class="section section-alt">
+        <div class="orb orb-3"></div>
+        <div class="container">
+            <h2 class="section-title">Mi Stack</h2>
+            <div class="stack-grid">
+                <div class="stack-item glass-card gradient-border">
+                    <div class="stack-icon">C#</div>
+                    <span class="stack-name">C#</span>
+                </div>
+                <div class="stack-item glass-card gradient-border">
+                    <div class="stack-icon">.NET</div>
+                    <span class="stack-name">.NET Framework</span>
+                </div>
+                <div class="stack-item glass-card gradient-border">
+                    <div class="stack-icon">SQL</div>
+                    <span class="stack-name">SQL Server</span>
+                </div>
+                <div class="stack-item glass-card gradient-border">
+                    <div class="stack-icon">POO</div>
+                    <span class="stack-name">Programación Orientada a Objetos</span>
+                </div>
+                <div class="stack-item glass-card gradient-border">
+                    <div class="stack-icon">API</div>
+                    <span class="stack-name">REST APIs</span>
+                </div>
+                <div class="stack-item glass-card gradient-border">
+                    <div class="stack-icon">Git</div>
+                    <span class="stack-name">Git & GitHub</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Proyectos -->
+    <section id="proyectos" class="section">
+        <div class="orb orb-4"></div>
+        <div class="container">
+            <h2 class="section-title">Proyectos</h2>
+            <div class="projects-grid">
+                <div class="project-card glass-card gradient-border">
+                    <div class="project-header">
+                        <span class="project-icon">📁</span>
+                        <a href="https://github.com/JuanDavPe/App-nivel2" target="_blank" class="project-link" aria-label="GitHub">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                            </svg>
+                        </a>
+                    </div>
+                    <h3 class="project-title">App-nivel2</h3>
+                    <p class="project-description">
+                        Aplicación de escritorio desarrollada para un comercio de ventas de
+                        electrodomésticos, conectada a una base de datos SQL.
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-tag">C#</span>
+                        <span class="tech-tag">.NET</span>
+                        <span class="tech-tag">SQL</span>
+                        <span class="tech-tag">POO</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certificados -->
+    <section id="certificados" class="section">
+        <div class="orb orb-5"></div>
+        <div class="container">
+            <h2 class="section-title">Certificados</h2>
+            <div class="certificates-wrapper">
+                <button class="scroll-btn scroll-prev" aria-label="Anterior">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <polyline points="15 18 9 12 15 6"></polyline>
+                    </svg>
+                </button>
+                <div class="certificates-scroll" id="certificatesScroll">
+                    <div class="certificate-card glass-card gradient-border">
+                        <div class="cert-preview cert-gradient-1">
+                            <div class="cert-bg-pattern">
+                                <span>{</span>
+                                <span>}</span>
+                            </div>
+                            <div class="cert-icon-wrapper">
+                                <div class="cert-icon-box">
+                                    <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="1.5">
+                                        <path d="M12 15l-2 5l9-13h-6l2-5-9 13h6z"></path>
+                                    </svg>
+                                </div>
+                                <span class="cert-icon-text">C#</span>
+                            </div>
+                        </div>
+                        <div class="cert-info">
+                            <div class="cert-title-wrapper">
+                                <div class="cert-dot cert-dot-1"></div>
+                                <h3 class="cert-title">C# Nivel 1</h3>
+                            </div>
+                            <p class="cert-description">Fundamentos de programación en C#</p>
+                            <a href="Certificados Cursos/cert-csharp-nivel1.pdf" target="_blank" class="cert-link" rel="noopener noreferrer">Ver certificado</a>
+                        </div>
+                    </div>
+                    <div class="certificate-card glass-card gradient-border">
+                        <div class="cert-preview cert-gradient-2">
+                            <div class="cert-bg-pattern">
+                                <span>{</span>
+                                <span>}</span>
+                            </div>
+                            <div class="cert-icon-wrapper">
+                                <div class="cert-icon-box">
+                                    <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="1.5">
+                                        <path d="M12 15l-2 5l9-13h-6l2-5-9 13h6z"></path>
+                                    </svg>
+                                </div>
+                                <span class="cert-icon-text">.NET</span>
+                            </div>
+                        </div>
+                        <div class="cert-info">
+                            <div class="cert-title-wrapper">
+                                <div class="cert-dot cert-dot-2"></div>
+                                <h3 class="cert-title">C# Nivel 2 (.NET + SQL)</h3>
+                            </div>
+                            <p class="cert-description">Desarrollo con .NET y bases de datos SQL</p>
+                            <a href="Certificados Cursos/cert-csharp-nivel2.pdf" target="_blank" class="cert-link" rel="noopener noreferrer">Ver certificado</a>
+                        </div>
+                    </div>
+                    <div class="certificate-card glass-card gradient-border">
+                        <div class="cert-preview cert-gradient-3">
+                            <div class="cert-bg-pattern">
+                                <span>{</span>
+                                <span>}</span>
+                            </div>
+                            <div class="cert-icon-wrapper">
+                                <div class="cert-icon-box">
+                                    <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="1.5">
+                                        <path d="M12 15l-2 5l9-13h-6l2-5-9 13h6z"></path>
+                                    </svg>
+                                </div>
+                                <span class="cert-icon-text">SQL</span>
+                            </div>
+                        </div>
+                        <div class="cert-info">
+                            <div class="cert-title-wrapper">
+                                <div class="cert-dot cert-dot-3"></div>
+                                <h3 class="cert-title">Bases de Datos</h3>
+                            </div>
+                            <p class="cert-description">Nivel Universidad - Diseño y gestión de BD</p>
+                            <a href="Certificados Cursos/cert-bases-datos.pdf" target="_blank" class="cert-link" rel="noopener noreferrer">Ver certificado</a>
+                        </div>
+                    </div>
+                    <div class="certificate-card glass-card gradient-border">
+                        <div class="cert-preview cert-gradient-4">
+                            <div class="cert-bg-pattern">
+                                <span>{</span>
+                                <span>}</span>
+                            </div>
+                            <div class="cert-icon-wrapper">
+                                <div class="cert-icon-box">
+                                    <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="1.5">
+                                        <path d="M12 15l-2 5l9-13h-6l2-5-9 13h6z"></path>
+                                    </svg>
+                                </div>
+                                <span class="cert-icon-text">IA</span>
+                            </div>
+                        </div>
+                        <div class="cert-info">
+                            <div class="cert-title-wrapper">
+                                <div class="cert-dot cert-dot-4"></div>
+                                <h3 class="cert-title">Desarrollo con IA</h3>
+                            </div>
+                            <p class="cert-description">Desarrollo con IA: programa con agentes</p>
+                            <a href="Certificados Cursos/cert-ia.pdf" target="_blank" class="cert-link" rel="noopener noreferrer">Ver certificado</a>
+                        </div>
+                    </div>
+                </div>
+                <button class="scroll-btn scroll-next" aria-label="Siguiente">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <polyline points="9 18 15 12 9 6"></polyline>
+                    </svg>
+                </button>
+            </div>
+            <div class="certificates-dots" id="certificatesDots">
+                <button class="dot active" data-index="0" aria-label="Ir a certificado 1"></button>
+                <button class="dot" data-index="1" aria-label="Ir a certificado 2"></button>
+                <button class="dot" data-index="2" aria-label="Ir a certificado 3"></button>
+                <button class="dot" data-index="3" aria-label="Ir a certificado 4"></button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contacto -->
+    <section id="contacto" class="section section-alt">
+        <div class="orb orb-6"></div>
+        <div class="container">
+            <h2 class="section-title">Contacto</h2>
+            <div class="contact-content">
+                <p class="contact-text">
+                    ¿Tienes un proyecto en mente o quieres trabajar juntos?
+                    ¡No dudes en contactarme!
+                </p>
+                <div class="contact-links">
+                    <a href="mailto:juamdpereira@hotmail.com" class="contact-item glass-card">
+                        <div class="contact-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                                <polyline points="22,6 12,13 2,6"></polyline>
+                            </svg>
+                        </div>
+                        <span>juamdpereira@hotmail.com</span>
+                    </a>
+                    <a href="https://www.linkedin.com/in/juan-pereiradev" target="_blank" class="contact-item glass-card">
+                        <div class="contact-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+                            </svg>
+                        </div>
+                        <span>LinkedIn</span>
+                    </a>
+                    <a href="https://github.com/JuanDavPe" target="_blank" class="contact-item glass-card">
+                        <div class="contact-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                            </svg>
+                        </div>
+                        <span>GitHub</span>
+                    </a>
+                </div>
+                <a href="cv/CV Juan Pereira.pdf" download class="btn btn-primary btn-cv">
+                    Descargar CV
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 Juan David Pereira. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
