@@ -621,6 +621,14 @@ a {
     line-height: 1.6;
 }
 
+.btn-live {
+    display: inline-block;
+    font-size: 0.85rem;
+    padding: 8px 16px;
+    margin-top: -8px;
+    margin-bottom: 20px;
+}
+
 .project-tech {
     display: flex;
     flex-wrap: wrap;
@@ -730,6 +738,10 @@ a {
     background: linear-gradient(135deg, #10b981, #06b6d4);
 }
 
+.cert-gradient-5 {
+    background: linear-gradient(135deg, #f59e0b, #ef4444);
+}
+
 .cert-bg-pattern {
     position: absolute;
     inset: 0;
@@ -819,6 +831,10 @@ a {
 
 .cert-dot-4 {
     background: linear-gradient(135deg, #10b981, #06b6d4);
+}
+
+.cert-dot-5 {
+    background: linear-gradient(135deg, #f59e0b, #ef4444);
 }
 
 .cert-title {
